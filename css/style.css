@@ -1,0 +1,268 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+body{
+	background-color: #003153;
+
+}
+span{
+	color: rgb(241, 31, 220);
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: white;
+    background-color: black;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+    border: 7px solid transparent;
+    border-radius: 30px;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+nav ul li a{
+	color: cyan;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px 10px;
+	border-radius: 30px;
+	border: 5px solid transparent;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	background-color: rgb(250, 241, 241);
+	color: black;
+	transition: .4s;
+
+}
+.btn{
+	background-color: #FFD700;
+	color: black;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: tranform .4s;
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+.content{
+    color: rgb(243, 235, 235);
+    font-size: 30px;
+	position: absolute;
+	top: 59%;
+	left: 8%;
+	transform: translateY(-50%);}
+
+.logo1{
+    width: 500px;
+    display: block;
+    margin: 0px auto;
+}
+.ourproduct{
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px auto;
+    width: 1000px;
+    display: block;
+	border-radius: 30px;
+	border: 2px solid transparent;
+	background-color: black;
+
+}
+.aboutquoteshirt1{
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px auto;
+    width: 1000px;
+    display: block;
+	border-radius: 30px;
+	border: 2px solid transparent;
+	background-color: black;
+}
+.shippingdetail1{
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px auto;
+    width: 1000px;
+    display: block;
+	border-radius: 30px;
+	border: 2px solid transparent;
+	background-color: black;
+}
+.contactus1{
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px auto;
+    width: 1000px;
+    display: block;
+	border-radius: 30px;
+	border: 2px solid transparent;
+	background-color: black;
+}
+.cart1{
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px auto;
+    width: 1000px;
+    display: block;
+	border-radius: 30px;
+	border: 2px solid transparent;
+	background-color: black;
+}
+.productimage1{
+	max-width: 1536px;
+	margin: auto;
+	overflow: auto;
+}
+.column{
+	margin: 70px;
+	border: 0px solid #ccc;
+	float: left;
+	width: 200px;
+	left: 50%;
+
+}
+.description{
+	padding: 15px;
+	text-align: center;
+	background-color: white;
+}
+.homebutton1{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px auto;
+    width: 200px;
+    display: block;
+	border-radius: 30px;
+	border: 2px solid transparent;
+	background-color: rgb(40, 227, 231);
+
+}
+.homebutton1:hover{
+	transform: scale(1.2);
+
+}
+.aboutquoteshirt2{
+	color:white;
+	text-align: center;
+	padding: 30px;
+
+}
+.shippingdetail2{
+	color:white;
+	align-items: center;
+	padding: 30px;
+}
+
+.socialmedia{
+		max-width: 1536px;
+		margin: auto;
+		overflow: auto;
+		text-align: center;
+		width: 200px;
+		color: #ccc;
+		padding: 10px;
+
+
+	}
+
+.socialmedia2{
+	max-width: 1536px;
+	margin: auto;
+	overflow: auto;
+	text-align: center;
+	width: 200px;
+	color: #ccc;
+	padding: 10px;
+
+}
+.cart-page{
+	margin: 80px auto;
+
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	background-color: rgb(212, 212, 212);
+
+}
+.cart-info{
+	display: flex;
+	flex-wrap: wrap;
+}
+th{
+	text-align: left;
+	padding: 5px;
+	color: black;
+	background-color: gray;
+	font-weight: normal;
+}
+td{
+	padding: 10px 5px;
+
+}
+td input{
+	width: 40px;
+	height: 30px;
+	padding: 5px;
+}
+td a{
+	color: red;
+	font-size: 12px;
+}
+td img{
+	width: 100px;
+	margin-right: 10px;
+}
+.total-price{
+	display: flex;
+	justify-content: flex-end;
+
+}
+.total-price table{
+	border-top: 4px solid #003153;
+	width: 100%;
+
+}
+td:last-child{
+	text-align: right;
+}
+th:last-child{
+	text-align: right;
+}
+.videoshirt{
+	align-items: center;
+}
+.videoandmusic{
+	color: yellow;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+footer{
+	border: 6px solid transparent;
+	border-radius: 30px;
+    text-align: right;
+	padding-right: 40px;
+	
+}
